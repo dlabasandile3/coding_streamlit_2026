@@ -18,7 +18,7 @@ col1, col2 = st.columns([1, 4])
 
 with col1:
     st.image(
-        "C:\Users\dlaba\Downloads\Masandza.jpeg",  #my image
+        "C:/Users/dlaba/Downloads/Masandza.jpeg",  #my image
         width=150
     )
 
@@ -146,6 +146,7 @@ st.header("Contact Information")
 email = "dlabasandile3@gmail.com"
 
 st.write(f"You can reach {name} at {email}.")
+
 
 
 
