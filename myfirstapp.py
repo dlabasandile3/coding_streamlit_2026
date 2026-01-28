@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
-st.title("Researcher Profile Page with STEM Data", font=monospace)
+st.title("Researcher Profile Page with STEM Data", font = sans serif)
 
 # Collect basic information
 name = "Mr. Mbongeleni Sandile Dlaba"
@@ -127,3 +127,4 @@ st.header("Contact Information")
 email = "dlabasandile3@gmail.com"
 
 st.write(f"You can reach {name} at {email}.")
+
