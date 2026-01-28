@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
-st.title("Researcher Profile Page with STEM Data")
+st.title("Researcher Profile Page with STEM Data", font=monospace)
 
 # Collect basic information
 name = "Mr. Mbongeleni Sandile Dlaba"
@@ -125,4 +125,5 @@ elif data_option == "Weather Data":
 # Add a contact section
 st.header("Contact Information")
 email = "dlabasandile3@gmail.com"
+
 st.write(f"You can reach {name} at {email}.")
