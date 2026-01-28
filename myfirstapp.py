@@ -10,8 +10,27 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-# Title of the app
-st.title("Researcher Profile Page with STEM Data")
+# Page configuration
+st.set_page_config(layout="wide")
+
+# layout
+col1, col2 = st.columns([1, 4])
+
+with col1:
+    st.image(
+        "C:\Users\dlaba\Downloads\Masandza.jpeg",  #my image
+        width=150
+    )
+
+with col2:
+    st.markdown(
+        """
+        <h1 style='text-align: center; font-weight: bold;'>
+        Researcher Profile Page with STEM Data
+        </h1>
+        """,
+        unsafe_allow_html=True
+    )
 
 # Collect basic information
 name = "Mr. Mbongeleni Sandile Dlaba"
@@ -127,5 +146,6 @@ st.header("Contact Information")
 email = "dlabasandile3@gmail.com"
 
 st.write(f"You can reach {name} at {email}.")
+
 
 
